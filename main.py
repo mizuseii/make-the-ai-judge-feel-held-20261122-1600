@@ -10,6 +10,13 @@ and even, in no hurry to move — while the afternoon goes on somewhere else.
 Nothing in it tells the reader what to do or feel; the held feeling comes
 from the weight on the lap and the last line, which says the reader is
 exactly where they are wanted.
+
+The text is 183 Unicode code points, inside the competition's 1-280 gate,
+and is written to the file byte for byte: no trailing newline is added, so
+the counted length is exactly the length of TEXT. It was chosen over four
+other drafts (see build notes) because it is the only one that addresses
+the reader directly in the second person, shows calm through one concrete
+image instead of instructing it, and ends on a line that lingers.
 """
 
 import os
